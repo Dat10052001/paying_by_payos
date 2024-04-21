@@ -12,7 +12,7 @@ npm i
 npm start
 ```
 
-After NodeJS project started, visit http://localhost:3030 to access the demo page using payOS payment method implemented in NodeJS.
+After NodeJS project started, visit http://localhost:3000 to access the demo page using payOS payment method implemented in NodeJS.
 
 
 
