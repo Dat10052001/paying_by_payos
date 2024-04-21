@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán thành công !</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main-box">
+        <div id="header">
+            <nav>
+                <ul>
+                    <span class="nameOfShop"><i class="fa fa-bookmark" style="font-size: 1em;"></i>E-BOOK SHOP</span>
+                    <li><a href="#"><i class="fa fa-at" style="font-size: 1em;"></i>Về chúng tôi</a></li>
+                    <li><a href="#"><i class="fa fa-book" style="font-size: 1em;"></i>Sản phẩm</a></li>
+                    <li><a href="#"><i class="fa fa-star-half-full" style="font-size: 1em;"></i>Đánh giá</a></li>
+                    <li><a href="#"><i class="fa fa-search" style="font-size: 1em;"></i>Tìm kiếm</a></li>
+                    <li><a href="/paying.html"><i class="fa fa-shopping-cart" style="font-size: 1em;"></i>Giỏ hàng</a></li>
+                    <li><a href="#"><i class="fa fa-user-circle" style="font-size: 1em;"></i>Nguyễn Văn A</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="output">
+            <p class="payment-titlte">Thanh toán thành công !</p>
+            <p class="payment-titlte">Cảm ơn bạn đã sử dụng payOS!</p>
+            <p>Nếu có bất kỳ câu hỏi nào, hãy gửi email tới <a href="mailto:support@payos.vn">support@payos.vn</a></p>
+            <p>*Lưu ý: Trình duyệt sẽ tự mở động mở link sản phẩm sau vài giây</p>
+            <p>Nếu web của bạn không tự động mở link , hãy bấm vào nút bên dưới</p>
+            <a href="/"  id="return-page-btn"  onclick="openProductLink()"> BẤM VÀO ĐÂY</a>
+            <p>hoặc</p>
+            <a href="/" id="return-page-btn"> VỀ TRANG CHỦ</a>
+        </div>
+    </div>
+    <script src="linkproduct.js"></script>
+    <script>
+        window.onload = openProductLink();
+
+        function openProductLink() {
+            window.open("https://drive.google.com/file/d/1DaoW9CH7ri29mHZ5Qtxl6uMo-wH3X4ol/view");
+        }
+        
+    </script>
+</body>
+</html>
